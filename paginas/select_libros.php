@@ -52,4 +52,4 @@
                     <?php } ?>
                     </tbody>
                 </table>
-    <?php include('sidebar.php') ?>
+    <?php include('sidebar_libro.php') ?>

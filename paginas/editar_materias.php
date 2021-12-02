@@ -24,7 +24,7 @@
 ?>
 <?php include('header.php') ?>
 
-<form action="actualizar_materias.php" method="post" id="formulario1" onsubmit="return ValidaFormulario1()">
+<form action="actualizar_materias.php" method="post" id="formulario1" onsubmit="return ValidaFormulario3()">
 		  <?php
             foreach ($rows as $row) {
 			//Imprimimos en la página EL UNICO REGISTRO de MySQL en un renglon de HTML

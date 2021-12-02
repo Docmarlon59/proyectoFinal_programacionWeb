@@ -10,7 +10,7 @@
 ?>
 <?php include('header.php') ?>  
 
-            <form action="grabar_autores.php" method="post" id="formulario1" onsubmit="return ValidaFormulario()">
+            <form action="grabar_autores.php" method="post" id="formulario1" onsubmit="return ValidaAltaAutores()">
                 <div>
                     
                     <br />
@@ -48,4 +48,4 @@
                 </div>
             </form>
 
-<?php include('sidebar_editorial.php') ?>
+<?php include('sidebar_autor.php') ?>

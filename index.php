@@ -1,7 +1,7 @@
 <?php include('./paginas/header_index.php') ?>
     <fieldset style="width: 95%; font-weight: bold;"    >
             <legend>INGRESO AL SISTEMA</legend>
-          <form action="paginas/validacion.php" method="post" id="formulario1" onSubmit="return ValidaFormulario()">
+          <form action="paginas/validacion.php" method="post" id="formulario1" onSubmit="return ValidaLogin()">
                 <div>
                     <br /> 
                          Usuario: 

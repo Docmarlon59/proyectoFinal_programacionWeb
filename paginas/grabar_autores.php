@@ -25,7 +25,7 @@
     // Escribimos la consulta para INSERTAR LOS DATOS EN LA TABLA de empleados (PDO)
 	// Concatenando 2 strings armamos la sentencia INSERT INTO ******************
        $sqlINSERT1 = "INSERT INTO autor(id_autor, nombre, paterno, materno, direccion, pais, nickname) ";
-	    $sqlINSERT2 = $sqlINSERT1 . "VALUES ($id_autor, '$nombre','$paterno','$materno','$direcccion','$pais','$nickname')";
+	    $sqlINSERT2 = $sqlINSERT1 . "VALUES ($id_autor, '$nombre','$paterno','$materno','$direccion','$pais','$nickname')";
     // Ejecutamos la sentencia INSERT de SQL a partir de la conexión usando PDO 
 	// mediante la propiedad "EXEC" de la linea de conexión *******************
 	

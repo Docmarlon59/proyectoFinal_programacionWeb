@@ -1,4 +1,4 @@
-function ValidaFormulario1()
+function ValidaFormulario2()
 	  {
 		 var id_editorial = document.getElementById("txt_id_editorial").value;
 		 var editorial = document.getElementById("txt_editorial").value;

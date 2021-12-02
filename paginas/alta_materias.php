@@ -10,7 +10,7 @@
 ?>
 <?php include('header.php') ?>  
 
-            <form action="grabar_materias.php" method="post" id="formulario1" onsubmit="return ValidaFormulario()">
+            <form action="grabar_materias.php" method="post" id="formulario1" onsubmit="return ValidaAltaMaterias()">
                 <div>
                     
                     <br />

@@ -1,8 +1,7 @@
-function ValidaFormulario()
-	  {
+function ValidaAltaAutores()
+	{
 		 //Recuperamos lo elegido en el combo de los departamento
 		 var id_autor = document.getElementById("txtid_autor").value;
-		 //Recuperamos lo escrito en la caja del nombre del empleado:
 		 var nombre = document.getElementById("txtnombre").value;
          var paterno = document.getElementById("txtpaterno").value;	
          var materno = document.getElementById("txtmaterno").value;
@@ -48,4 +47,4 @@ function ValidaFormulario()
             return false;	 
         }
 			 return true; 
-		 }
+	}

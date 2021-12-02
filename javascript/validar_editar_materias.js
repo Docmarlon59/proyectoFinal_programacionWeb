@@ -1,4 +1,4 @@
-function ValidaFormulario1()
+function ValidaFormulario3()
 	  {
 		 var id_materia = document.getElementById("txt_id_materia").value;
 		 var materia = document.getElementById("txt_materia").value;

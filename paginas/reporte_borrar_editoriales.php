@@ -32,5 +32,8 @@
         <?php } ?>  
         </tbody>
     </table>
-
+    <?php
+			//Cerramos la oonexion a la base de datos **********************************************
+			$conn = null;
+     ?>
 <?php include('sidebar_editorial.php') ?>

@@ -1,4 +1,4 @@
-function ValidaFormulario()
+function ValidaLogin()
 	  {
 		 //Recuperamos lo escrito en la caja del usuario:
 		 var valorUsuario = document.getElementById("txtusuario").value;

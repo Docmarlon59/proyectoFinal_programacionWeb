@@ -1,4 +1,4 @@
-function ValidaFormulario()
+function ValidaAltaMaterias()
 	  {
 		 //Recuperamos lo elegido en el combo de los departamento
 		 var id_materia = document.getElementById("txtid_materia").value;

@@ -1,6 +1,6 @@
-function ValidaFormulario()
+function ValidaAltaEditoriales()
 	  {
-		 //Recuperamos lo elegido en el combo de los departamento
+		 //Recuperamos lo e2legido en el combo de los departamento
 		 var id_editorial = document.getElementById("txtid_editorial").value;
 		 //Recuperamos lo escrito en la caja del nombre del empleado:
 		 var editorial = document.getElementById("txteditorial").value;
