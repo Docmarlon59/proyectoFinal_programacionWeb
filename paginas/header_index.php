@@ -21,8 +21,8 @@ session_destroy();
       <a href="#"><i class="fa fa-fw fa-AJAX"></i> AJAX</a>
       <a class="active" href="#"><i class="fa fa-fw fa-libros"></i> Libros</a> 
       <a href="#"><i class="fa fa-fw fa-autores"></i> Autores</a> 
-      <a href="#"><i class="fa fa-fw fa-materia"></i> Materia</a>
-      <a href="#"><i class="fa fa-fw fa-editorial"></i> Editorial</a> 
+      <a href="./paginas/select_materias.php"><i class="fa fa-fw fa-materia"></i> Materia</a>
+      <a href="./paginas/select_editorial.php"><i class="fa fa-fw fa-editorial"></i> Editorial</a> 
       <a href="#"><i class="fa fa-fw fa-login"></i> Inicio</a>
   </div>
   <div class="main">
