@@ -8,6 +8,7 @@
 <script src="../javascript/validar_borrar_materia.js"></script>
 <script src="../javascript/validar_borrar_autor.js"></script>
 <script src="../javascript/validar_borrar_editorial.js"></script>
+<script src="../javascript/validar_borrar_libro.js"></script>
 <script src="../javascript/validar_alta_materias.js"></script>
 <script src="../javascript/validar_alta_editoriales.js"></script>
 <script src="../javascript/validar_alta_autores.js"></script>
