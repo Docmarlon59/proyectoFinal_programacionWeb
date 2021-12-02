@@ -4,9 +4,12 @@
 <title>LIBRERIA</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <script src="../javascript/validar_editar_materias.js"></script>
 <script src="../javascript/validar_borrar_materia.js"></script>
 <script src="../javascript/validar_alta_materias.js"></script>
+<script src="../javascript/validar_alta_editoriales.js"></script>
+
 <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body>

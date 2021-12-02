@@ -1,15 +1,13 @@
 <?php
     require_once "conn_mysql_prow.php";
- 
-    $sql2 = 'SELECT * FROM editorial';
-	
-    $result = $conn->query($sql2);
-      
+    $result;
+    $sql = 'SELECT * FROM editorial';
+    $result = $conn->query($sql);
     $rows = $result->fetchAll();
 ?>
 <?php include('header.php') ?>
 
-<table border="1" width="100%">
+<table border="1" style="width:100%;">
         <thead>
             <tr>
                 <th>ID</th>
@@ -18,17 +16,21 @@
             </tr>
         </thead>
         <tbody>
-        
         <?php
             foreach ($rows as $row) {
-			//Imprimimos en la página EL UNICO REGISTRO de MySQL en un renglon de HTML
         ?>
             <tr>
+                
                 <td><?php echo $row['id_editorial']; ?></td>
-                <td><?php echo $row['editorial']; ?></td> 
-                <td><?php echo $row['ciudad']; ?></td> 
+                <td><a onClick="return borrar_editorial(<?php echo $row['id_editorial']; ?>);" 
+            href="eliminar_editorial.php?id=<?php echo $row['id_editorial']; ?>">
+				        <?php echo $row['editorial']; ?>
+                    </a>
+                </td>
+                <td><?php echo $row['ciudad']; ?></td>
             </tr>
-        <?php } ?>
+        <?php } ?>  
+        </tbody>
     </table>
 
 <?php include('sidebar_editorial.php') ?>
